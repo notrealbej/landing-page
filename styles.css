@@ -1,0 +1,173 @@
+body{
+    height: 180vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.hero, .info, .comments, .cta-footer{
+    flex: 1;
+    border: 2px solid black;
+    padding-left: 16vw;
+    padding-right: 16vw;
+}
+
+.hero{
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    gap: 14vh;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+    padding: 8px;
+    margin: 0;
+}
+
+.hero{
+    background-color: #1F2937;
+}
+
+.header ul{
+    display: flex;
+    gap: 16px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.info .illustration img{
+    height: 150px;
+    width: 150px;
+    border: 2px #3882F6 solid;
+    border-radius: 10px;
+}
+
+.info .illustration{
+    display: flex;
+    gap: 72px;
+    align-items: center;
+    justify-content: center;
+}
+
+.info .info-text{
+    font-size: 38px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.info .illustration li{
+    width: 150px;
+    height: 200px;
+}
+
+.hero-text-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-img, .hero-text{
+    height: 26vh;
+    flex: 1;
+    align-self: center;
+    padding: 0 40px;
+}
+
+#hero-main-text{
+    font-size: 54px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin: 0 0 10px 0;
+}
+
+.hero-text{
+    font-size: 22px;
+    color: #E5E7EB;
+}
+
+.hero-text button{
+    color: white;
+    background-color: #3882F6;
+    padding: 5px 32px;
+    font-weight: 800;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 6px;
+    border: none;
+}
+
+.hero-img{
+    box-sizing: border-box;
+    background-color: gray;
+    text-align: center;
+    padding-top: 12vh;
+}
+
+.header{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.comments{
+    background-color: #E5E7EB;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2837;
+    padding-top: 5vh;
+    padding-left: 25vw;
+    padding-right: 25vw;
+    box-sizing: border-box;
+}
+
+.cta-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    gap: 100px;
+}
+
+.cta-footer .cta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    margin: 0;
+    background-color: #3882F6;
+    width: 80%;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+
+}
+
+.cta-footer .cta button{
+    color: white;
+    background-color: #3882F6;
+    border: white 1px solid;
+    border-radius: 5px;
+    padding: 2px 14px;
+}
+
+.cta-footer .footer{
+    width: 99vw;
+    background-color: gainsboro;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
